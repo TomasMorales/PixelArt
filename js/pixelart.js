@@ -1,11 +1,11 @@
 var myPixelDraw={
 	colorPicked:0,
-
+	cellColor: #ecf0f1,
 	defaultCells: 30,
 	coloring: false,
 	fns:{
 		calcSize:function (cant) {
-			console.log('calcSize');
+			
 		},
 		reSize:function (cant) {
 			console.log('reSize');
@@ -43,5 +43,5 @@ var myPixelDraw={
 }
 
 $(function(){
-	
+
 })
