@@ -1,0 +1,17 @@
+html{
+	margin:auto;
+	width: 400px;
+}
+#container{
+	width: 400px;
+	height: 400px;
+	background-color: black;
+}
+#f1c40f{
+	width: 25px;
+	height: 25px;
+	border: 2px solid;
+	border-radius: 25px;
+	background-color: #f1c40f;
+
+}
