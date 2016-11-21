@@ -5,6 +5,18 @@ html{
 #container{
 	width: 400px;
 	height: 400px;
+}
+.cell{
+	background-color: #ecf0f1;
+	outline: 1px dotted black;
+	float: left;
+}
+.cell:hover{
+
+}
+#grilla{
+	width: 400px;
+	height: 400px;
 	background-color: black;
 }
 #f1c40f{
@@ -13,5 +25,24 @@ html{
 	border: 2px solid;
 	border-radius: 25px;
 	background-color: #f1c40f;
-
+	float: left;
+}
+#FF0000{
+	width: 25px;
+	height: 25px;
+	border: 2px solid;
+	border-radius: 25px;
+	background-color: #FF0000;
+	float: left;
+}
+#actions{
+	float: right;
+}
+#color-pick{
+	float: left;
+	top:400px;
+	margin-top: 11px;
+}
+#color-pick .select{
+	border-color: white;
 }
